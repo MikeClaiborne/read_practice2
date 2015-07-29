@@ -1,0 +1,96 @@
+{
+	"id": "0001",
+	"sight_words": [
+	{
+		"word": "third",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "ledge",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "listen",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "stood",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "large",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "whisper",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "become",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "first",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "enough",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "surprise",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "more",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "day",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},	
+	{
+		"word": "second",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}}
+]
+}

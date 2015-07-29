@@ -1,0 +1,81 @@
+<md-content>
+    <md-toolbar>
+      <div class="md-toolbar-tools">
+        
+
+        <h2>
+          <span>{{student.name.first}} {{student.name.last}}</span>
+        </h2>
+        <span flex></span>
+
+        <md-menu md-position-mode="target-right target">
+          <md-button aria-label="Open main menu" class="md-icon-button" ng-click="$mdOpenMenu()">
+            <md-icon md-menu-origin md-svg-icon="img/ic_menu_white_48px.svg"></md-icon>
+          </md-button>
+          <md-menu-content width="4">
+            <md-menu-item ng-repeat="item in ['Gabriella Claiborne', 'Julia Claiborne', 'Sophia Claiborne']">
+              <md-button href="#/home">
+                <p>{{item}}</p>
+              </md-button>
+            </md-menu-item>
+            <md-menu-divider></md-menu-divider>
+            <md-menu-item>
+              <md-button href="#/login">
+                <p>Sign Out</p>
+              </md-button>
+            </md-menu-item>
+          </md-menu-content>
+        </md-menu>
+
+
+
+
+      </div>
+    </md-toolbar>
+
+
+<md-content layout-padding style="padding: 24px;">
+  	<!--md-button md-no-ink class="md-primary"  href="#/practiceSight/{{studentID}}">Practice Sight Words</md-button><br/-->
+
+  	<md-menu>
+      <md-button aria-label="Open Practice Sight Words menu" class="md-primary" ng-click="$mdOpenMenu()">
+        Practice Sight Words
+      </md-button>
+      <md-menu-content width="4">
+        <md-menu-item>
+          <!--md-button href="#/practiceSight/studentID={{studentID}}&option=1"-->
+          <md-button ng-click="selectMenu(1)">
+            <!--md-icon md-svg-icon="call:dialpad" md-menu-align-target></md-icon-->
+            List 1 Recomended Words
+          </md-button>
+        </md-menu-item>
+        <md-menu-item>
+          <md-button ng-click="selectMenu(2)">
+            <!--md-icon md-svg-icon="call:voicemail"></md-icon-->
+            List 2 
+          </md-button>
+        </md-menu-item>
+        <md-menu-item>
+          <md-button ng-click="selectMenu(3)">
+            <!--md-icon md-svg-icon="call:voicemail"></md-icon-->
+            List 3 
+          </md-button>
+        </md-menu-item>
+        <!--md-menu-divider></md-menu-divider-->
+        <md-menu-item>
+          <md-button disabled="disabled" href="#/practiceSight/{{studentID}}">
+            <!--md-icon md-svg-icon="social:notifications-{{ctrl.notificationsEnabled ? 'off' : 'on'}}"></md-icon-->
+            List 4 Challenging Words
+          </md-button>
+        </md-menu-item>
+      </md-menu-content>
+    </md-menu>
+
+</md-content>
+
+<br/>
+<br/>
+
+
+
+</md-content>

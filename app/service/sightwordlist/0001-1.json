@@ -1,0 +1,61 @@
+{
+	"id": "0001",
+	"sight_words": [
+	{
+		"word": "although",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "together",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "eyes",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "sister",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "friends",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "vacation",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "round",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "always",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}}
+]
+}

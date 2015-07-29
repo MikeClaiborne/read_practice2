@@ -1,0 +1,47 @@
+{
+	"id": "0001",
+	"sight_words": [
+	{
+		"word": "often",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "washes",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "garden",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "clothes",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "mop",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "sometimes",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}}
+]
+}

@@ -1,0 +1,47 @@
+<md-content layout-padding style="padding: 24px;">
+    
+<form id="loginForm">
+ 
+  <div layout="column">  
+    <md-input-container md-no-float>
+      <md-icon md-font-icon="material-icons" ng-style="{color:'#777'}" ng-class="{size:md-24,padding:2}">email</md-icon>
+      <input ng-model="user.phone" type="email" required name="iEmail" placeholder="Email Address">
+    </md-input-container>
+    <!--div ng-messages="loginForm.iEmail.$error">
+          <div ng-message="required">This is required.</div>
+          <div ng-message="format">Must be a valid email address</div>
+    </div-->
+
+    <md-input-container md-no-float>
+      <md-icon md-font-icon="material-icons" ng-style="{color:'#777'}" ng-class="{size:md-24,padding:2}">vpn_key</md-icon>
+      <input ng-model="user.password" type="password" placeholder="Password">
+    </md-input-container>
+
+  
+    <md-input-container md-no-float>
+      <md-icon md-font-icon="material-icons">none_none</md-icon>
+      <md-checkbox md-no-ink aria-label="Remember me label" ng-model="rememberMe" class="md-primary">
+            Remember me
+      </md-checkbox>
+    </md-input-container>
+  
+  </div> <!-- end columns --> 
+
+  <div flex="50">{{errorMessage}}<br/><br/></div>
+
+  <md-input-container md-no-float>
+    <md-button class="md-raised md-primary" href="#/home">Sign In</md-button>
+  </md-input-container md-no-float>
+
+
+</form>
+
+
+</md-content>
+
+<br/>
+<br/>
+
+
+
+</md-content>

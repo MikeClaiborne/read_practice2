@@ -1,0 +1,8 @@
+cd C:\Users\Maureen\Documents\projects\angular-phonecat
+
+set PATH=%PATH%;C:\Program Files (x86)\Git\bin
+
+npm start
+
+http://localhost:8000/app/
+
