@@ -2,91 +2,126 @@
 	"id": "0001",
 	"sight_words": [
 	{
-		"word": "third",
+		"word": "box",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "ledge",
+		"word": "bread",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "listen",
+		"word": "chair",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "stood",
+		"word": "cake",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "large",
+		"word": "children",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "whisper",
+		"word": "coat",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "become",
+		"word": "doll",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "first",
+		"word": "father",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "enough",
+		"word": "flower",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "surprise",
-		"stats": {
-			"avg":0,
-			"num":0,
-			"last":true
-		}},
-	{
-		"word": "more",
-		"stats": {
-			"avg":0,
-			"num":0,
-			"last":true
-		}},
-	{
-		"word": "day",
+		"word": "ground",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},	
 	{
-		"word": "second",
+		"word": "house",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},	
+	{
+		"word": "letter",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},	
+	{
+		"word": "money",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},	
+	{
+		"word": "night",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},	
+	{
+		"word": "paper",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},	
+	{
+		"word": "street",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},	
+	{
+		"word": "table",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},	
+	{
+		"word": "watch",
 		"stats": {
 			"avg":0,
 			"num":0,

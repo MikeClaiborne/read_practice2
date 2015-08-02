@@ -46,26 +46,26 @@
           <!--md-button href="#/practiceSight/studentID={{studentID}}&option=1"-->
           <md-button ng-click="selectMenu(1)">
             <!--md-icon md-svg-icon="call:dialpad" md-menu-align-target></md-icon-->
-            List 1 Recomended Words
+            List 1 - Review
           </md-button>
         </md-menu-item>
         <md-menu-item>
           <md-button ng-click="selectMenu(2)">
             <!--md-icon md-svg-icon="call:voicemail"></md-icon-->
-            List 2 
+            List 2 - Dolche 1 
           </md-button>
         </md-menu-item>
         <md-menu-item>
           <md-button ng-click="selectMenu(3)">
             <!--md-icon md-svg-icon="call:voicemail"></md-icon-->
-            List 3 
+            List 3 - Dolche 2
           </md-button>
         </md-menu-item>
         <!--md-menu-divider></md-menu-divider-->
         <md-menu-item>
-          <md-button disabled="disabled" href="#/practiceSight/{{studentID}}">
+          <md-button ng-click="selectMenu(4)">
             <!--md-icon md-svg-icon="social:notifications-{{ctrl.notificationsEnabled ? 'off' : 'on'}}"></md-icon-->
-            List 4 Challenging Words
+            List 4 - Read w/ Dad
           </md-button>
         </md-menu-item>
       </md-menu-content>

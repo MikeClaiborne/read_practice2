@@ -2,42 +2,133 @@
 	"id": "0001",
 	"sight_words": [
 	{
-		"word": "often",
+		"word": "every",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "washes",
+		"word": "could",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "garden",
+		"word": "giving",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "clothes",
+		"word": "how",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "mop",
+		"word": "just",
 		"stats": {
 			"avg":0,
 			"num":0,
 			"last":true
 		}},
 	{
-		"word": "sometimes",
+		"word": "know",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "live",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "once",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "open",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "thank",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "them",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "then",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "been",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "both",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "does",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "found",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "goes",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "their",
+		"stats": {
+			"avg":0,
+			"num":0,
+			"last":true
+		}},
+	{
+		"word": "upon",
 		"stats": {
 			"avg":0,
 			"num":0,

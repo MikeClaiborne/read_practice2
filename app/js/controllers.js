@@ -48,7 +48,7 @@ readingControllers.controller('HomeCtrl', ['$scope', '$http', '$location', '$win
 
     $scope.selectMenu = function(option) {
       dataSvc.setData("homeOption",option);
-      //console.log("in selectOption(), option= "+dataSvc.getData("homeOption"));
+      console.log("in selectOption(), option= "+dataSvc.getData("homeOption")+", option= "+option);
       //console.log("in selectOption(), cur location= "+$window.location.href);
       //$location.path("#/practiceSight");
       //$route.reload();
