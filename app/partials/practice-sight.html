@@ -1,7 +1,7 @@
   <div class="container">
       <div class="page-header">
        
-        <p class="sight_words" align="center">{{wordList.sight_words[currWordIndex].word}} </p>
+        <p class="sight_words" align="center">{{wordList.sight_words[currWordIndex].word}} ({{wordList.sight_words[currWordIndex].id}})</p>
       </div> 
       
       <div class="progress">
@@ -24,10 +24,10 @@
           <td class="swp_td"><md-button href="#/home"><i class="material-icons md-60">home</i></md-button>
           </td>
          
-          <td class="swp_td"><md-button><i class="material-icons md-60"  ng-click="markAnswer(studentID, wordList.sight_words[currWordIndex].word, 'true')">keyboard_arrow_up</i></md-button>
+          <td class="swp_td"><md-button><i class="material-icons md-60"  ng-click="markAnswer(studentID, wordList.sight_words[currWordIndex].id, 'true')">keyboard_arrow_up</i></md-button>
           </td>
          
-          <td class="swp_td"><md-button><i class="material-icons md-60"  ng-click="markAnswer(studentID, wordList.sight_words[currWordIndex].word, 'false')">keyboard_arrow_down</i></md-button>
+          <td class="swp_td"><md-button><i class="material-icons md-60"  ng-click="markAnswer(studentID, wordList.sight_words[currWordIndex].id, 'false')">keyboard_arrow_down</i></md-button>
           </td>
           
           </tr></table>

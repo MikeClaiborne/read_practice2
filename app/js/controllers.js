@@ -77,7 +77,7 @@ readingControllers.controller('PracticeSightCtrl', ['$scope', '$routeParams', '$
     console.log("beginning PracticeSightCtrl, studentID= "+$scope.studentID+" , option= "+$scope.option);
 
     var d= new Date();
-    $http.get('service/sightwordlist/' + $scope.studentID + '-' + dataSvc.getData("homeOption") + '.json?' + d.getMilliseconds()).success(function(data) {
+    $http.get('/service/sightwordlist/' + $scope.studentID + '-' + dataSvc.getData("homeOption") + '.json?' + d.getMilliseconds()).success(function(data) {
       console.log('PracticeSightCtrl after $http call');
       $scope.wordList = data;
       console.log('data:',data);
@@ -88,13 +88,15 @@ readingControllers.controller('PracticeSightCtrl', ['$scope', '$routeParams', '$
     });
 
 
-    $scope.markAnswer = function(studentID, word, correct) {
+    $scope.markAnswer = function(studentID, wordid, correct) {
       
-      // Update the server
-      $scope.message = "{studentID="+studentID+",word="+word+",correct="+correct+"}";
+      // Update the server    
+      console.log('markAnswer() did we get correct wordid?:',wordid);
+      $scope.message = "studentID="+studentID+"&wordID="+$scope.wordList.sight_words[$scope.currWordIndex].id+"&correct="+correct;
       console.log('markAnswer() message:',$scope.message);
 
-      $http.post('service/sightwordlist/markanswer', $scope.message)
+      $http.defaults.headers.post["Content-Type"] = "application/x-www-form-urlencoded"; 
+      $http.post('/service/sightwords/Performance', $scope.message)
         .success(function(data) {
           //console.log('markAnswer service call: success');  
         })
